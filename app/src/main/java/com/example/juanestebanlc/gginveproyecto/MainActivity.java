@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case 1:
-
+                        Intent teri = new Intent(MainActivity.this, TerniumActivity.class);
+                        startActivity(teri);
                         break;
 
                     case 2:
@@ -66,6 +67,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    public  void starTernium(View view) { startActivity(new Intent(this, TerniumActivity.class)); }
+
     public void startCerrey(View view) { startActivity(new Intent(this, CerreyActivity.class)); }
 
     public void startVillacero(View view) { startActivity(new Intent(this, VillaceroActivity.class)); }
