@@ -1,5 +1,6 @@
 package com.example.juanestebanlc.gginveproyecto;
 
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -37,8 +38,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case 1:
-                        Intent ter = new Intent(MainActivity.this, TerniumActivity.class);
-                        startActivity(ter);
+
                         break;
 
                     case 2:
@@ -67,8 +67,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void startCerrey(View view) { startActivity(new Intent(this, CerreyActivity.class)); }
-
-    public void startTernium(View view) { startActivity(new Intent(this, TerniumActivity.class)); }
 
     public void startVillacero(View view) { startActivity(new Intent(this, VillaceroActivity.class)); }
 
