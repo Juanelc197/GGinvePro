@@ -30,6 +30,18 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView"
             android:layout_marginTop="12dp" />
+
+        <ImageButton
+            android:id="@+id/img_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="21dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/minimap"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
